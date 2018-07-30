@@ -1,0 +1,34 @@
+{
+  "name": "siwi-wechat-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=dev node index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/siwi-wechat-token.git"
+  },
+  "keywords": [
+    "wechat access token"
+  ],
+  "author": "siwilizhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/siwi-wechat-token/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/siwi-wechat-token#readme",
+  "dependencies": {
+    "siwi-logger": "^1.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
